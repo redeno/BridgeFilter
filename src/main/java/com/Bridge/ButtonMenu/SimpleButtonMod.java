@@ -16,7 +16,12 @@ import org.lwjgl.input.Keyboard;
 
 import java.util.regex.Pattern;
 
-@Mod(modid = "bridgefilter", name = "Bridge Filter", version = "1.0", clientSideOnly = true)
+@Mod(modid = "bridgefilter",
+        name = "Bridge Filter",
+        version = "1.0.0",
+        clientSideOnly = true,
+        updateJSON = "https://raw.githubusercontent.com/redeno/BridgeFilter/main/update.json")
+
 public class SimpleButtonMod {
 
     private static final int MENU_BUTTON_ID = 6969;
